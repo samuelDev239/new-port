@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+h1 {
+    font-family: 'Bebas Neue', cursiv
+}
+body{
+    overflow-x: hidden;
+    width: 100vw;
+}
+@keyframes waves {
+   
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(1.1);
+    }
+}
+@keyframes waves-dois {
+   
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(1.1);
+    }
+}
+.fundo {
+    
+    width: 100vw;
+    height: auto;
+    background-color: blueviolet;
+    overflow-x: hidden;
+   
+}
+.scroll {
+}
+.section.section-1 {
+    overflow-y: hidden;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+.section {
+    overflow-y: hidden;
+    width: 100%;
+    height: 100vh;
+    
+}
+.align {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10;
+    background: none;
+}
+
+.section .navbar{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100px;
+    
+}
+
+.section a{
+    font-family: 'Bebas Neue', cursiv;
+    color: #2DCBF0;
+    text-decoration: none;
+    font-size: 26px;
+}
+.navbar .logo {
+   
+}
+.navbar .items{
+    
+    
+}
+.navbar .links {
+   
+}
+.conteudo {
+    margin-left: 100px;
+}
+.titulo {
+  
+    font-size: 100px;
+  
+    z-index: 10;
+    
+}
+.titulo.titulo-1 {
+    color: #1d1d1d;
+    font-size: 120px;
+    width: 873.06px;
+    z-index: 10;
+    
+}
+.titulo.titulo-2{
+    color: #ffffff;
+}
+.conteudo.conteudo-2{
+    padding: 2rem 0;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.subtitulo {
+    color: white;
+    font-family: 'Bebas Neue', cursiv;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+}
+.text {
+    color: white;
+    width: 70%;
+    font-size: 22px;
+    
+}
+.fundo-img {
+
+}
+.fundo-waves {
+    position: absolute;
+    top: 13%;
+    width: 100%;
+    height: 90%;
+   
+    
+}
+.fundo-waves.waves-1 {
+    position: absolute;
+    height: 100%;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    top: 0.1%;
+    animation-name: waves;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.fundo-waves.waves-2 {
+    position: absolute;
+    width: 100vw;
+    height: 80%;
+    top: 20%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    animation-name: waves-dois;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+    
+}
+.section.section-2 {
+    background: linear-gradient(90deg, #3BD4F9 -0.99%, #05BBE6 98.25%);
+    z-index: 50;
+
+    
+}
+.section.section-3{
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    
+    background-color: #fff;
+    flex-direction: column;
+}
+.conteudos {
+    margin-left: 100px;
+    justify-content: space-between;
+    z-index: 5;
+    display: flex;
+}
+.circle-background {
+    position: absolute;
+width: 100vw;
+height: 70%;
+top: 1312.35px;
+z-index: 1;
+
+}
+.titulo.titulo-3{
+    text-align: center;
+    font-size: 128px;
+    color: #fff;
+}
+.container-title {}
+.card {
+    position: relative;
+    bottom: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding: 5px 5px 30px;
+    
+    text-align: center;
+    width: 18%;
+    height: 80%;
+    background: #06B3E8;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.fundo-card {
+    position: relative;
+    top: 0;
+    background-color: #fff;
+    height: 15rem;
+    width: 100%;
+    border-radius: 10px;
+}
+.text.text1 {
+    text-align: left;
+    font-size: 18px;
+    height: 10rem;
+}
+.container-card{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    
+}
+.botao {
+    width: 70%;
+    background-color: #32CFFF;
+    border-radius: 50px;
+}
+.botao a {
+    color: white;
+}
+.card h2{
+    font-size: 24px;
+}
+.section.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 150px 0;
+    
+    background-color: #fff;
+    justify-content: space-around;
+    
+}
+.titulo.titulo-4 {
+    color: #2DCBF0;
+    font-size: 154px;
+    width: auto;
+    
+}
+.items-contato {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.circle {
+    border-radius: 1000px;
+    background-color: #06B3E8;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section.section-5 {
+    background-color: #03B0E7;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pad: 5rem;
+}
+.section.section-6 {
+    background: linear-gradient(180deg, #0099CA 13.88%, #03B0E7 100%);
+    display: flex;
+    
+    
+
+}
+.fundo-image {
+    width: 100vw;
+    height: 100vh;
+    background: none;
+    position: absolute;
+}
+.rodape {
+    background-color: #1d1d1d;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    display: flex;
+    color: #d4d4d4;
+    
+}
+.undraw {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    right: 20%;
+}
+.textos {
+    display: flex;
+    flex-direction: column;
+}
+.rodape-text {
+    font-size: 22px;
+}
